@@ -25,6 +25,11 @@ export enum ChainId {
   ZKSYNC = 324,
   WORLDCHAIN = 480,
   ASTROCHAIN_SEPOLIA = 1301,
+  BIT_TORRENT_MAINNET = 199,
+  FANTOM = 250,
+  EON = 7332,
+  BERA_TESTNET = 80084,
+  SONIC_TESTNET = 64165
 }
 
 export const SUPPORTED_CHAINS = [
@@ -52,6 +57,11 @@ export const SUPPORTED_CHAINS = [
   ChainId.ZKSYNC,
   ChainId.WORLDCHAIN,
   ChainId.ASTROCHAIN_SEPOLIA,
+  ChainId.BIT_TORRENT_MAINNET,
+  ChainId.FANTOM,
+  ChainId.EON,
+  ChainId.BERA_TESTNET,
+  ChainId.SONIC_TESTNET
 ] as const
 export type SupportedChainsType = (typeof SUPPORTED_CHAINS)[number]
 
@@ -65,4 +75,9 @@ export enum NativeCurrencyName {
   BNB = 'BNB',
   AVAX = 'AVAX',
   ROOTSTOCK = 'RBTC',
+  BTTC = 'BTTC',
+  FTM = 'FTM',
+  EON = 'ZEN',
+  BERA = 'BERA',
+  SONIC_TESNET = 'S'
 }

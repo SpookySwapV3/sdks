@@ -1,8 +1,10 @@
 {
-  "name": "@uniswap/v2-sdk",
-  "description": "🛠 An SDK for building applications on top of Uniswap V2",
-  "repository": "https://github.com/Uniswap/sdks.git",
+  "name": "@spooky-swap-dex/v2-sdk",
+  "description": "🛠 An SDK for building applications on top of Spookyswap V2",
+  "version": "2.0.1-nsdk003",
+  "repository": "https://github.com/SpookyswapV3/sdks.git",
   "keywords": [
+    "skookyswap",
     "uniswap",
     "ethereum"
   ],
@@ -19,14 +21,13 @@
   "scripts": {
     "build": "tsdx build",
     "lint": "tsdx lint src",
-    "release": "semantic-release",
     "start": "tsdx watch",
     "test": "tsdx test"
   },
   "dependencies": {
     "@ethersproject/address": "^5.0.2",
     "@ethersproject/solidity": "^5.0.9",
-    "@uniswap/sdk-core": "^5.8.1",
+    "@uniswap/sdk-core": "npm:@spooky-swap-dex/sdk-core@^2.0.1-nsdk001",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
@@ -43,36 +44,6 @@
     "singleQuote": true
   },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
-  },
-  "release": {
-    "extends": "semantic-release-monorepo",
-    "branches": [
-      {
-        "name": "main",
-        "prerelease": false
-      }
-    ],
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "preset": "angular",
-          "releaseRules": "../../publishing/release-rules.cjs"
-        }
-      ],
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/npm",
-      "@semantic-release/github",
-      [
-        "@semantic-release/exec",
-        {
-          "successCmd": "git restore yarn.lock && yarn",
-          "failCmd": "git restore yarn.lock && yarn",
-          "execCwd": "../.."
-        }
-      ]
-    ]
+    "access": "public"
   }
 }

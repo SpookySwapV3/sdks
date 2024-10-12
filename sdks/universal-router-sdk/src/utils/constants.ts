@@ -294,6 +294,80 @@ export const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
       },
     },
   },
+  // bittorrent mainnet
+  [199]: {
+    weth: '0x23181F21DEa5936e24163FFABa4Ea3B316B57f3C',
+    routerConfigs: {
+      [UniversalRouterVersion.V1_2]: {
+        address: '0xB27481AdC53077191b293f2BA1A589cc77802078',
+        creationBlock: 28132160,
+      },
+      //Research whether v2 was deploy or just v1.2
+      [UniversalRouterVersion.V2_0]: {
+        address: '0xB27481AdC53077191b293f2BA1A589cc77802078',
+        creationBlock: 28132160,
+      },
+    },
+  },
+  // fantom mainnet
+  [250]: {
+    weth: '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83',
+    routerConfigs: {
+      [UniversalRouterVersion.V1_2]: {
+        address: '0x6AB0CA9c94FDE313a3A1d34A8247ae6065Bd2E73',
+        creationBlock: 71613337,
+      },
+      //Research whether v2 was deploy or just v1.2
+      [UniversalRouterVersion.V2_0]: {
+        address: '0x6AB0CA9c94FDE313a3A1d34A8247ae6065Bd2E73',
+        creationBlock: 71613337,
+      },
+    },
+  },
+  // Horizen mainnet
+  [7332]: {
+    weth: '0xF5cB8652a84329A2016A386206761f455bCEDab6',
+    routerConfigs: {
+      [UniversalRouterVersion.V1_2]: {
+        address: '0x4c5657b3c43b23E8C04724A3e3da9Ea05ae0712C',
+        creationBlock: 704624,
+      },
+      //Research whether v2 was deploy or just v1.2
+      [UniversalRouterVersion.V2_0]: {
+        address: '0x4c5657b3c43b23E8C04724A3e3da9Ea05ae0712C',
+        creationBlock: 704624,
+      },
+    },
+  },
+  [80084]: {
+    weth: '0x7507c1dc16935B82698e4C63f2746A2fCf994dF8',
+    routerConfigs: {
+      [UniversalRouterVersion.V1_2]: {
+        address: '0xDfb63F08a4bF4dE6bC0f169c03febcB3C7B6Ec61',
+        creationBlock: 2189565,
+      },
+      //Research whether v2 was deploy or just v1.2
+      [UniversalRouterVersion.V2_0]: {
+        address: '0xDfb63F08a4bF4dE6bC0f169c03febcB3C7B6Ec61',
+        creationBlock: 2189565,
+      },
+    }
+  },
+  // sonic testnet
+  [64165]: {
+    weth: '0xD31686E65f17542C7019B22b2E6A0C71e72aA8Dd',
+    routerConfigs: {
+      [UniversalRouterVersion.V1_2]: {
+        address: '0x4c5657b3c43b23E8C04724A3e3da9Ea05ae0712C',
+        creationBlock: 71918290,
+      },
+      //Research whether v2 was deploy or just v1.2
+      [UniversalRouterVersion.V2_0]: {
+        address: '0x4c5657b3c43b23E8C04724A3e3da9Ea05ae0712C',
+        creationBlock: 71918290,
+      },
+    }
+  }
 }
 
 export const UNIVERSAL_ROUTER_ADDRESS = (version: UniversalRouterVersion, chainId: number): string => {

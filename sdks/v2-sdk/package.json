@@ -1,7 +1,7 @@
 {
   "name": "@spooky-swap-dex/v2-sdk",
   "description": "🛠 An SDK for building applications on top of Spookyswap V2",
-  "version": "2.0.1-nsdk003",
+  "version": "2.0.1-nsdk004",
   "repository": "https://github.com/SpookyswapV3/sdks.git",
   "keywords": [
     "skookyswap",
@@ -27,7 +27,7 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.2",
     "@ethersproject/solidity": "^5.0.9",
-    "@uniswap/sdk-core": "npm:@spooky-swap-dex/sdk-core@^2.0.1-nsdk001",
+    "@uniswap/sdk-core": "npm:@spooky-swap-dex/sdk-core@^2.0.1-nsdk002",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },

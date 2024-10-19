@@ -37,8 +37,8 @@
   ],
   "resolutions": {
     "@manypkg/cli@^0.19.2": "patch:@manypkg/cli@npm%3A0.19.2#./.yarn/patches/@manypkg-cli-npm-0.19.2-ea52ff91d4.patch",
-    "@uniswap/v2-sdk": "npm:@spooky-swap-dex/v2-sdk@^2.0.1-nsdk003",
-    "@uniswap/sdk-core": "npm:@spooky-swap-dex/sdk-core@^2.0.1-nsdk001",
-    "@uniswap/universal-router-sdk": "@spooky-swap-dex/universal-router-sdk@^2.0.1-nsdk001"
+    "@uniswap/v2-sdk": "npm:@spooky-swap-dex/v2-sdk@^2.0.1-nsdk004",
+    "@uniswap/sdk-core": "npm:@spooky-swap-dex/sdk-core@^2.0.1-nsdk002",
+    "@uniswap/universal-router-sdk": "@spooky-swap-dex/universal-router-sdk@^2.0.1-nsdk002"
   }
 }

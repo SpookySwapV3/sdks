@@ -34,4 +34,5 @@ export const WETH9: { [chainId: number]: Token } = {
   7332: new Token(7332, '0xF5cB8652a84329A2016A386206761f455bCEDab6', 18, 'WZEN', 'Wrapped ZEN'),
   80084: new Token(80084, '0x7507c1dc16935B82698e4C63f2746A2fCf994dF8', 18, 'WBERA', 'Wrapped Bera'),
   64165: new Token(64165, '0xD31686E65f17542C7019B22b2E6A0C71e72aA8Dd', 18, 'WS', 'Wrapped Sonic'),
+  48815: new Token(48815, '', 18, 'WBTC', 'Wrapped Bitcoin'),
 }

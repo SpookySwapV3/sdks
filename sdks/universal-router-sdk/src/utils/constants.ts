@@ -367,6 +367,20 @@ export const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
         creationBlock: 71918290,
       },
     }
+  },
+  [48815]: {
+    weth: '0xc9cB60b2635A1e2518B37Cb632C973e54C5AB3fF',
+    routerConfigs: {
+      [UniversalRouterVersion.V1_2]: {
+        address: '0xa58536246beEB4E68C84caFFC07C87aB5F9f7A16',
+        creationBlock: 309397,
+      },
+      //Research whether v2 was deploy or just v1.2
+      [UniversalRouterVersion.V2_0]: {
+        address: '0xa58536246beEB4E68C84caFFC07C87aB5F9f7A16',
+        creationBlock: 309397,
+      },
+    }
   }
 }
 

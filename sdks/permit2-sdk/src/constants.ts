@@ -8,6 +8,8 @@ export const ZEN_PERMIT2_ADDRESS = '0xd119eF12fdC22756c8Ce4F03E463607742e3A59f'
 export const BERA_TESTNET_PERMIT2_ADDRESS = '0x6AB0CA9c94FDE313a3A1d34A8247ae6065Bd2E73'
 export const SONIC_TESTNET_PERMIT2_ADDRESS = '0xc67ED70B32D14EcDdb7d279b9A8D50d00aBD171e'
 export const GOAT_TESTNET_PERMIT2_ADDRESS = '0x7928a2c48754501f3a8064765ECaE541daE5c3E6'
+export const SONIC_PERMIT2_ADDRESS = '0x981ef1F1644715AE797434DE4C0aaD16e6162723'
+export const GOAT_PERMIT2_ADDRESS = '0x000000000022D473030F116dDEE9F6B43aC78BA3'
 
 export function permit2Address(chainId?: number): string {
   switch (chainId) {
@@ -25,6 +27,10 @@ export function permit2Address(chainId?: number): string {
       return SONIC_TESTNET_PERMIT2_ADDRESS
     case 48815:
       return GOAT_TESTNET_PERMIT2_ADDRESS
+    case 146:
+      return SONIC_PERMIT2_ADDRESS
+    case 2345:
+      return GOAT_PERMIT2_ADDRESS
     default:
       return PERMIT2_ADDRESS
   }

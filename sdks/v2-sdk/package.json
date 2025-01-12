@@ -27,7 +27,7 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.2",
     "@ethersproject/solidity": "^5.0.9",
-    "@uniswap/sdk-core": "npm:@spooky-swap-dex/sdk-core@^2.0.1-nsdk002",
+    "@uniswap/sdk-core": "npm:@spooky-swap-dex/sdk-core@^2.0.1-nsdk003",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },

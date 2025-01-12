@@ -382,7 +382,7 @@ const GOAT_TESTNET_ADDRESSES: ChainAddresses = {
   mixedRouteQuoterV1Address: '0x621071f64AEa3dF5B6E4C0ad060a95E36660a48F',
 }
 
-const SONIC__ADDRESSES: ChainAddresses = {
+const SONIC_ADDRESSES: ChainAddresses = {
   v3CoreFactoryAddress: '0x3D91B700252e0E3eE7805d12e048a988Ab69C8ad',
   multicallAddress: '0xF64bBE936974A130FcAA1f746132F94B089C1dF5',
   tickLensAddress: '0x7B97E8C53F1B4fE7F0C330583B89BD3038554449',
